@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WLDRecords>
+    <WLD Num="33">
+        <Name>F-15E Wing Rail</Name>
+        <WpnIdx_0>174</WpnIdx_0>
+        <WpnIdx_1>175</WpnIdx_1>
+        <WpnIdx_2>193</WpnIdx_2>
+        <WpnCount_0>1</WpnCount_0>
+        <WpnCount_1>1</WpnCount_1>
+        <WpnCount_2>1</WpnCount_2>
+    </WLD>
+</WLDRecords>
