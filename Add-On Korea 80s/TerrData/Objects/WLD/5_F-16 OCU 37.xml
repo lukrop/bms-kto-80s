@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WLDRecords>
+    <WLD Num="5">
+        <Name>F-16 OCU 3/7</Name>
+        <WpnIdx_0>167</WpnIdx_0>
+        <WpnIdx_1>174</WpnIdx_1>
+        <WpnIdx_2>175</WpnIdx_2>
+        <WpnIdx_3>149</WpnIdx_3>
+        <WpnIdx_4>188</WpnIdx_4>
+        <WpnIdx_5>355</WpnIdx_5>
+        <WpnIdx_6>362</WpnIdx_6>
+        <WpnIdx_7>256</WpnIdx_7>
+        <WpnIdx_8>258</WpnIdx_8>
+        <WpnIdx_9>260</WpnIdx_9>
+        <WpnIdx_10>262</WpnIdx_10>
+        <WpnIdx_11>265</WpnIdx_11>
+        <WpnIdx_12>322</WpnIdx_12>
+        <WpnIdx_13>346</WpnIdx_13>
+        <WpnIdx_14>357</WpnIdx_14>
+        <WpnIdx_15>358</WpnIdx_15>
+        <WpnIdx_16>363</WpnIdx_16>
+        <WpnIdx_17>323</WpnIdx_17>
+        <WpnIdx_18>146</WpnIdx_18>
+        <WpnIdx_19>147</WpnIdx_19>
+        <WpnIdx_20>148</WpnIdx_20>
+        <WpnIdx_21>229</WpnIdx_21>
+        <WpnIdx_22>193</WpnIdx_22>
+        <WpnCount_0>1</WpnCount_0>
+        <WpnCount_1>1</WpnCount_1>
+        <WpnCount_2>1</WpnCount_2>
+        <WpnCount_3>1</WpnCount_3>
+        <WpnCount_4>1</WpnCount_4>
+        <WpnCount_5>3</WpnCount_5>
+        <WpnCount_6>1</WpnCount_6>
+        <WpnCount_7>2</WpnCount_7>
+        <WpnCount_8>2</WpnCount_8>
+        <WpnCount_9>2</WpnCount_9>
+        <WpnCount_10>2</WpnCount_10>
+        <WpnCount_11>2</WpnCount_11>
+        <WpnCount_12>1</WpnCount_12>
+        <WpnCount_13>3</WpnCount_13>
+        <WpnCount_14>3</WpnCount_14>
+        <WpnCount_15>3</WpnCount_15>
+        <WpnCount_16>1</WpnCount_16>
+        <WpnCount_17>1</WpnCount_17>
+        <WpnCount_18>3</WpnCount_18>
+        <WpnCount_19>3</WpnCount_19>
+        <WpnCount_20>3</WpnCount_20>
+        <WpnCount_21>6</WpnCount_21>
+        <WpnCount_22>1</WpnCount_22>
+    </WLD>
+</WLDRecords>
