@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SSDRecords>
+    <SSD Num="54">
+        <WpnStores_85>40</WpnStores_85>
+        <WpnStores_93>80</WpnStores_93>
+        <WpnStores_148>60</WpnStores_148>
+        <WpnStores_149>40</WpnStores_149>
+        <WpnStores_167>160</WpnStores_167>
+        <WpnStores_174>250</WpnStores_174>
+        <WpnStores_188>30</WpnStores_188>
+        <WpnStores_329>30</WpnStores_329>
+        <WpnStores_346>160</WpnStores_346>
+        <WpnStores_355>200</WpnStores_355>
+        <WpnStores_357>200</WpnStores_357>
+        <WpnStores_358>60</WpnStores_358>
+        <WpnStores_362>60</WpnStores_362>
+        <WpnStores_363>120</WpnStores_363>
+        <InfiniteAG>0</InfiniteAG>
+        <InfiniteAA>0</InfiniteAA>
+        <InfiniteGun>0</InfiniteGun>
+    </SSD>
+</SSDRecords>
