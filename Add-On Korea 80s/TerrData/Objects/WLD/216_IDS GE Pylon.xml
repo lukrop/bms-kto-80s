@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WLDRecords>
+    <WLD Num="216">
+        <Name>IDS GE Pylon</Name>
+        <WpnIdx_0>73</WpnIdx_0>
+        <WpnIdx_1>215</WpnIdx_1>
+        <WpnIdx_2>357</WpnIdx_2>
+        <WpnIdx_3>361</WpnIdx_3>
+        <WpnIdx_4>355</WpnIdx_4>
+        <WpnIdx_5>360</WpnIdx_5>
+        <WpnIdx_6>360</WpnIdx_6>
+        <WpnIdx_7>290</WpnIdx_7>
+        <WpnIdx_8>292</WpnIdx_8>
+        <WpnIdx_9>293</WpnIdx_9>
+        <WpnCount_0>1</WpnCount_0>
+        <WpnCount_1>1</WpnCount_1>
+        <WpnCount_2>1</WpnCount_2>
+        <WpnCount_3>1</WpnCount_3>
+        <WpnCount_4>1</WpnCount_4>
+        <WpnCount_5>1</WpnCount_5>
+        <WpnCount_6>1</WpnCount_6>
+        <WpnCount_7>1</WpnCount_7>
+        <WpnCount_8>1</WpnCount_8>
+        <WpnCount_9>1</WpnCount_9>
+    </WLD>
+</WLDRecords>
