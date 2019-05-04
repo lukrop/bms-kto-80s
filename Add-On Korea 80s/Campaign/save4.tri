@@ -1,0 +1,84 @@
+//
+// Base event file
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+//
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore 
+// KCK WARNING: KEEP THIS UPDATED!
+//
+#TOTAL_EVENTS 22
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// This sets the initial tempo
+#SET_TEMPO 150
+#ENDINIT
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// Now come the individual triggers
+//
+// Event #1
+// ROK forces go on offensive
+// 
+#IF_EVENT_PLAYED 1
+#ELSE
+#IF_ON_OFFENSIVE 2
+#DO_EVENT 1
+#SHIFT_INITIATIVE 4 2 70
+#ENDIF
+// 
+// Event #2
+// ROK win if Pusan, Sokcho and Pohang are controlled in less than 8 campaign days.
+// 
+#IF_EVENT_PLAYED 2
+#ELSE
+#IF_CAMPAIGN_DAY G 8
+#IF_CONTROLLED 2 O 417 708 2649
+#IF_CONTROLLED 2 A 414 511
+#PLAY_MOVIE 116
+#DO_EVENT 2
+#END_GAME 2
+#ENDIF
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #3
+// Stalemate
+// 
+#IF_BORDOM_HOURS 240
+#PLAY_MOVIE 114
+#DO_EVENT 3
+#END_GAME 3
+#ENDIF
+// 
+// Event #4
+// Timeout
+// 
+#IF_CAMPAIGN_DAY G 10
+#PLAY_MOVIE 115
+#DO_EVENT 4
+#END_GAME 4
+#ENDIF
+// 
+// Event #5
+// CIS win if not pushed backed from South Korea within 8 campaign days.
+// 
+#IF_EVENT_PLAYED 5
+#ELSE
+#IF_CAMPAIGN_DAY G 8
+#IF_CONTROLLED 4 A 417 708 2649
+#IF_CONTROLLED 4 O 414 511
+#PLAY_MOVIE 113
+#DO_EVENT 5
+#END_GAME 5
+#ENDIF
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// End
+#ENDSCRIPT

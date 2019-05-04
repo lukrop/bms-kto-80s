@@ -1,0 +1,60 @@
+#----------------------------------
+# Add-On Korea TvT v3.61  TDF file
+#----------------------------------
+
+# shown in the pick list
+name Korea 80s
+
+# title shown on theater page
+desc Korea 80s - WARNING: Restart BMS after any theatre change.
+
+# bitmap to display on theater page
+bitmap Add-On Korea 80s\Terrdata\theaterdefinition\Korea_80s.tga
+
+# in general, you can miss out most of these, and it
+# will use the default, unless another theater changes it
+# so probably best to put in explicitly.
+
+# Where the campaign directory is
+campaigndir Add-On Korea 80s\Campaign
+
+# where the terrain data is
+# terraindir Add-On Korea 80s\Terrdata\korea
+
+# which tileset to use - overrides the global setting in the cfg file
+# tileset POLAK
+
+# where art is loaded from
+artdir Add-On Korea 80s
+
+# movies
+# moviedir Add-On Korea TvT
+
+# uisounds
+# uisounddir Add-On Korea TvT\Sounds\ui
+
+# default objects
+objectdir Add-On Korea 80s\Terrdata\objects
+
+# misc textures
+# misctexdir Add-On Korea 80s\Terrdata\misctex
+
+# 3d object files
+# 3ddatadir Add-On Korea 80s\Terrdata\objects
+
+# sounds dir
+# sounddir Add-On Korea 80s\Sounds
+
+# simdata dir
+# simdatadir Add-On Korea 80s\Sim
+
+# minimum tacan channel
+mintacan 1
+
+# use double resolution 2D UI map
+doubleres2dmap 1
+
+# magnetic declination
+magneticdeclination 0
+
+

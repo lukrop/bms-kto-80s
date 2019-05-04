@@ -1,0 +1,81 @@
+//
+// Base event file
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+//
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore 
+// KCK WARNING: KEEP THIS UPDATED!
+//
+#TOTAL_EVENTS 22
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// This sets the initial tempo
+#SET_TEMPO 150
+#ENDINIT
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// Now come the individual triggers
+//
+// Event #1
+// BLUEFORCE goes on offensive
+// 
+#IF_EVENT_PLAYED 1
+#ELSE
+#IF_ON_OFFENSIVE 7
+#DO_EVENT 1
+#SHIFT_INITIATIVE 1 7 70
+#ENDIF
+#ENDIF
+// 
+// Event #2
+// BLUEFORCE wins if Cheongju is controlled in less than 5 campaign days.
+// 
+#IF_EVENT_PLAYED 2
+#ELSE
+#IF_CAMPAIGN_DAY G 5
+#IF_CONTROLLED 7 A 585
+#PLAY_MOVIE 116
+#DO_EVENT 2
+#END_GAME 2
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #3
+// Stalemate
+// 
+#IF_BORDOM_HOURS 144
+#PLAY_MOVIE 114
+#DO_EVENT 3
+#END_GAME 3
+#ENDIF
+// 
+// Event #4
+// Timeout
+// 
+#IF_CAMPAIGN_DAY G 6
+#PLAY_MOVIE 115
+#DO_EVENT 4
+#END_GAME 4
+#ENDIF
+// 
+// Event #5
+// REDFORCE wins if Cheongju stays controlled within 5 campaign days.
+// 
+#IF_EVENT_PLAYED 5
+#ELSE
+#IF_CAMPAIGN_DAY G 5
+#IF_CONTROLLED 1 A 585
+#PLAY_MOVIE 116
+#DO_EVENT 5
+#END_GAME 5
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// End
+#ENDSCRIPT
