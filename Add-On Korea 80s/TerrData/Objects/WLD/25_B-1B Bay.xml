@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WLDRecords>
+    <WLD Num="25">
+        <Name>B-1B Bay</Name>
+        <WpnIdx_0>357</WpnIdx_0>
+        <WpnIdx_1>355</WpnIdx_1>
+        <WpnIdx_2>265</WpnIdx_2>
+        <WpnIdx_3>262</WpnIdx_3>
+        <WpnIdx_4>362</WpnIdx_4>
+        <WpnIdx_5>363</WpnIdx_5>
+        <WpnCount_0>28</WpnCount_0>
+        <WpnCount_1>28</WpnCount_1>
+        <WpnCount_2>10</WpnCount_2>
+        <WpnCount_3>10</WpnCount_3>
+        <WpnCount_4>8</WpnCount_4>
+        <WpnCount_5>8</WpnCount_5>
+    </WLD>
+</WLDRecords>
